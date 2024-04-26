@@ -3,8 +3,7 @@ def calcular_media(lista):
         raise ValueError("A lista está vazia.")
     return sum(lista) / len(lista)
 
-valores = [5, 12, 19, 25, 30]
-
+valores = [6, 12, 19, 25, 30]
 
 try:
     media = calcular_media(valores)
